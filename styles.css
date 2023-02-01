@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: "PT Serif", serif;
+  text-align: center;
+}
+
+#header {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("images/Salzburg_Background.jpg");
+  background-size: cover;
+  color: white;
+  margin: none;
+}
+
+#visit {
+  background: #023047;
+  margin-bottom: 0;
+}
+
+#msg {
+  background: #219ebc;
+}
+
+#visit,
+#msg {
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+#hero {
+  background: #a8dadc;
+  color: #023047;
+  height: 400px;
+}
+
+.sight {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.sight:hover {
+  border: 8px solid #023047;
+}
+
+.sight-layout {
+  display: flex;
+  justify-content: space-around;
+}
+
+.activity {
+  width: 250px;
+}
+
+.website-link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+#hero-activities {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+#footer {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guide {
+  width: 180px;
+  border-radius: 5px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.guide-description {
+  margin-left: 5px;
+}
+
+#container {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #ffb703;
+  color: #023047;
+  padding: 12px 24px;
+  border-radius: 10px;
+  border-bottom: 6px solid #023047;
+}
